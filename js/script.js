@@ -31,19 +31,19 @@ $('.banner-slider').slick({
     arrows: false,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       },
       {
@@ -120,7 +120,7 @@ $('#testi-part .testi-slider').slick({
       {
           breakpoint: 992,
           settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 1,
               infinite: true,
              
@@ -196,6 +196,7 @@ $('#market-part .market-slider').slick({
               slidesToShow: 2,
               slidesToScroll: 1,
               autoplay: true,
+              arrows: false,
           }
   },
       {
@@ -204,6 +205,7 @@ $('#market-part .market-slider').slick({
               slidesToShow: 1,
               slidesToScroll: 1,
               autoplay:true,
+              arrows: false,
           }
   }
   // You can unslick at a given breakpoint now by adding:
